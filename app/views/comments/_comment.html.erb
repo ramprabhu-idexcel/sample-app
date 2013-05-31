@@ -1,0 +1,17 @@
+
+<table id="tabl_des">
+  <tr>
+    <th>Commenter</th>
+    <th>Comment</th>
+    <th></th>
+  </tr>
+
+<% comments.each do |comment| %>
+  <tr>
+    <td><%= comment.commenter %></td>
+    <td><%= comment.body %></td>
+    <td><%= link_to 'Destroy', [comment.post, comment],:confirm => 'Are you sure?',
+               :method => :delete %></td>
+  </tr>
+  <%end%>
+</table>
