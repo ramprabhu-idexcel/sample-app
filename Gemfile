@@ -9,6 +9,8 @@ gem 'mysql2'
 
 gem 'carrierwave'
 
+gem 'activeadmin'
+
 gem 'devise'
 
 gem 'cancan'

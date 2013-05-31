@@ -1,7 +1,7 @@
 class IdeasController < ApplicationController
   require 'csv'
   before_filter :authenticate_user!
-  #load_and_authorize_resource
+  load_and_authorize_resource
   # GET /ideas
   # GET /ideas.json
   def index
@@ -113,11 +113,11 @@ class IdeasController < ApplicationController
   def create_upload   
     import_data = []
     unless params[:clear]   
-    file=params[:dump][:file]
+    file=params[:dump][:file] rescue nil
     FCSV.new(file.tempfile, :headers => true).each do |row|            
       csv_content = Receivable.new(:account_no=>row[0],:name=>row[1],
                       :invoice =>row[2],:original_date=>row[3],
-                      :amount=>row[4],:due_date=>row[5])  
+                      :amount=>row[4],:due_date=>row[5])   
       raise csv_content.errors.full_messages.join(", ") unless csv_content.valid?
       import_data << csv_content
     end

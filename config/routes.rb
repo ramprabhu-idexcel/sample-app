@@ -1,11 +1,16 @@
 Railsgirls::Application.routes.draw do
+  root :to => redirect('/sign_in')
 
-  root :to => redirect('/users/sign_in')     
-   
-  resources :roles
-
-  devise_for :users, :controllers => {:sessions => "sessions"}  
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   
+  devise_for :users, :controlles => {:sessions => "sessions"} do  
+    get 'sign_in' => "sessions#new", :as => :new_user_session
+    post 'sign_in' => "sessions#create", :as => :user_session      
+  end
+   
+  resources :roles  
+
   resources :ideas do 
     collection do
       get 'uploads'
@@ -19,6 +24,7 @@ Railsgirls::Application.routes.draw do
     resources :comments
   end
   
+  match '*a', :to => 'errors#routing'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

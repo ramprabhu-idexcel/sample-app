@@ -1,7 +1,8 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery
+class ApplicationController < ActionController::Base  
+  protect_from_forgery  
   include SessionsHelper
- 
+  include ErrorsHelper::RescueError 
+
   # Customize the Devise after_sign_in_path_for() for redirecct to previous page after login
   def after_sign_in_path_for(resource_or_scope)
     case resource_or_scope
@@ -13,6 +14,5 @@ class ApplicationController < ActionController::Base
     else
       super
     end
-  end
-  
+  end 
 end
