@@ -12,19 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require dataTables/jquery.dataTables
 //= require twitter/bootstrap
 //= require_tree .
-
-$(document).ready(function() {
-//$('#ideas_list tr').click(function() {
-        //var href = $(this).find("a").attr("href");
-        //alert(href);
-       // $.ajax({
-       // url: href+"/edit"
-       // });
-        //if(href) {
-           // window.location = href;
-        //}
-    //});
-});
-
+//= require jquery.purr

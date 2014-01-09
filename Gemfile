@@ -19,6 +19,8 @@ gem 'json'
 
 gem 'execjs'
 
+gem 'gruff'
+
 gem 'therubyracer', :platforms => :ruby
 
 gem 'nokogiri'
@@ -30,6 +32,12 @@ gem "prawnto"
 gem "rails-erd"
 
 gem "ruby-graphviz"
+ 
+gem "acts_as_list"
+
+gem 'unicorn'
+
+gem "rb-readline", :require => false
 
 #gem 'will_paginate', "3.0.pre4"
 
@@ -41,7 +49,7 @@ gem "rspec-rails"
 
 gem 'factory_girl_rails', '1.1'
 
-gem 'cucumber-rails'
+gem "cucumber-rails", "1.3.0", :require => false
 
 gem 'database_cleaner'
 
@@ -50,6 +58,12 @@ gem 'webrat'
 gem "activerecord-import", ">= 0.2.0"
 
 gem 'fastercsv'
+
+gem "launchy"
+
+gem "selenium-webdriver"
+
+gem "best_in_place"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -67,6 +81,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+gem 'jquery-datatables-rails', :github => 'rweng/jquery-datatables-rails'
 
 
 

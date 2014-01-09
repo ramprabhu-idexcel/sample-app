@@ -1,5 +1,8 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!
+  before_filter :page_expiry!,:only => [:create,:update,:destroy]
+  caches_action :index
+
   http_basic_authenticate_with :name => "ram", :password => "ram123", :except => [:index, :show]
   # GET /posts
   # GET /posts.json
@@ -55,9 +58,7 @@ class PostsController < ApplicationController
 
   # POST /posts
   # POST /posts.json
-  def create
-    puts "$$$$$$$$"
-    puts params.inspect
+  def create     
     @post = Post.new(params[:post])
 
     respond_to do |format|
@@ -73,7 +74,7 @@ class PostsController < ApplicationController
 
   # PUT /posts/1
   # PUT /posts/1.json
-  def update
+  def update    
     @post = Post.find(params[:id])
 
     respond_to do |format|
@@ -102,4 +103,8 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def page_expiry!
+    expire_page :action => :index		
+  end	
 end

@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Emanuel', :city => cities.first)
+
+book = Book.create([{ :name => 'Harry Potter' }, { :name => 'Twilight' }, { :name => 'Bible' }])

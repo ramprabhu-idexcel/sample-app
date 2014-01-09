@@ -8,9 +8,8 @@ class ApplicationController < ActionController::Base
     case resource_or_scope
     when :user, User
       store_location = session[:return_to]
-      puts store_location.inspect
       clear_stored_location
-      (store_location.nil?) ? "/ideas" : store_location.to_s
+      (store_location.nil?) ? "/products" : store_location.to_s
     else
       super
     end

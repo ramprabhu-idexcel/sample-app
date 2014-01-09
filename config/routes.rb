@@ -1,4 +1,18 @@
 Railsgirls::Application.routes.draw do
+
+  resources :books
+
+
+  resources :products do
+    collection do
+     get 'search'
+     get 'datagrid'
+     get 'sorting'
+     get 'destroy_all_prod'
+    end
+  end
+
+
   root :to => redirect('/sign_in')
 
   devise_for :admin_users, ActiveAdmin::Devise.config
@@ -21,10 +35,15 @@ Railsgirls::Application.routes.draw do
   match 'all_idea' => 'ideas#all_idea', :defaults => {:format => 'pdf'}, :as => 'all_idea'
 
   resources :posts do
-    resources :comments
+    #resources :comments
   end
   
-  match '*a', :to => 'errors#routing'
+  #match '*a', :to => 'errors#routing'
+
+  resources :books do
+     post :sort, :on => :collection
+  end
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,0 +1,21 @@
+ <%= form_for :dump, :url=>{:controller=>"ideas", :action=>"create_upload"}, 
+ :html => { :multipart => true } do |f| %>
+ <table>
+   <tr>
+     <td>
+      <label for="dump_file">
+        Select a CSV File :
+      </label>
+     </td>
+     <td >
+       <%= f.file_field :file %>
+     </td>
+   </tr>
+   <tr>
+     <td colspan='2'>
+       <%= f.submit :submit %>       
+     </td>
+   </tr>
+ </table>
+<% end %>
+<%= button_to "Clear All Receivables", {:controller => "ideas", :action => "create_upload", :clear => true} , :method => :post %>

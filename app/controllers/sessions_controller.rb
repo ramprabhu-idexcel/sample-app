@@ -23,8 +23,6 @@ class SessionsController < Devise::SessionsController
   end
 
   def auth_options
-  puts "----------"  	
-  puts resource.inspect
     { :scope => resource_name, :recall => "#{controller_path}#new" }
   end
 

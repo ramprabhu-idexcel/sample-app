@@ -28,6 +28,21 @@ When /^(?:|I )follow "([^"]*)"$/ do |link|
   click_link(link)
 end
 
+When(/^user logs on through the logon page credential with "(.*?)" and "(.*?)"$/) do |email, pwd|
+  visit(new_user_session_path)
+  fill_in( "user_email", :with => email )
+  fill_in( "user_password", :with => pwd )
+  click_button( "Sign in" ) 
+end
+
+Given /^I am logged in as "(.*)"$/ do |email|
+  @user = Factory(:user, :email => email)  
+  visit(new_user_session_path)
+  fill_in("user_email", :with => @user.email)
+  fill_in("user_password", :with => @user.password)
+  click_button("Sign in")
+end
+
 When /^(?:|I )follow "([^"]*)" within "([^"]*)"$/ do |link, parent|
   click_link_within(parent, link)
 end
@@ -140,13 +155,17 @@ When /^(?:|I )attach the file "([^"]*)" to "([^"]*)"$/ do |path, field|
   attach_file(field, path, type)
 end
 
-Then /^(?:|I )should see "([^"]*)"$/ do |text|
-  if response.respond_to? :should
-    response.should contain(text)
-  else
-    assert_contain text
-  end
-end
+# Then /^(?:|I )should see "([^"]*)"$/ do |text|
+#   if response.respond_to? :should
+#     response.should contain(text)
+#   else
+#     assert_contain text
+#   end
+# end
+
+Then /^I should see "([^"]*)"$/ do |message|
+  page.should have_content(message)
+end 
 
 Then /^(?:|I )should see "([^"]*)" within "([^"]*)"$/ do |text, selector|
   within(selector) do |content|

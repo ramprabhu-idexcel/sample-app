@@ -1,7 +1,7 @@
 class IdeasController < ApplicationController
   require 'csv'
   before_filter :authenticate_user!
-  load_and_authorize_resource
+  
   # GET /ideas
   # GET /ideas.json
   def index
@@ -51,9 +51,9 @@ class IdeasController < ApplicationController
 
   # GET /ideas/1/edit
   def edit
-    @idea = Idea.find(params[:id])
+    @idea = Idea.find(params[:id])    
     respond_to do |format|
-    format.js
+    format.html
     end
   end
 
