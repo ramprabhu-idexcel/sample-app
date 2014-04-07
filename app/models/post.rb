@@ -1,13 +1,21 @@
 class Post < ActiveRecord::Base
-  attr_accessible :content, :name, :title, :user_id, :comments_count, :tags_attributes
+  attr_accessible :content, :name, :title, :user_id,:published_at
   validates :name,  :presence => true
-  validates :title, :presence => true,:length => { :minimum => 5 },:uniqueness => true 
+  validates :user_id,  :presence => true
+  validates :title, :presence => true,:length => { :minimum => 5 }
   has_many :comments, :dependent => :destroy
-  has_many :tags
-  accepts_nested_attributes_for :tags, :allow_destroy => :true,
-    :reject_if => proc { |attrs| attrs.all? { |k, v| v.blank? } }  
   belongs_to :user
-  scope :recent, limit(10).order('posts.created_at DESC')
-  scope :uncommented, where(:comments_count => 0)
-  default_scope includes(:comments).order('created_at ASC')  
+
+  #Solr search engine
+
+  searchable do
+  	text :name,:title
+  	integer :user_id 
+  	time :published_at
+    time :created_at	
+    text :comments do
+      comments.map { |comment| comment.body }
+    end
+    integer :user_id
+  end	
 end

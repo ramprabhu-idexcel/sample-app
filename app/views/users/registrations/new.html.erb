@@ -30,14 +30,6 @@
 <div><%= f.label :permanent_address %><br />
 <%= f.text_area :permanent_address %></div> 
 
-<% for role in Role.find(:all) %>
- <div>
-   <%= check_box_tag "user[role_ids][]", role.id, @user.roles.include?(role) %>
-   <%= role.name %>
- </div>
-<% end %>
-
-
 
 <div><%= f.submit "Sign up" %></div>
 <% end %>

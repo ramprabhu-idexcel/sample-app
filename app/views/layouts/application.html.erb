@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>CoffeeMeCrazy</title> 
-  <%= stylesheet_link_tag  "application", "bootstrap", "editablegrid-2.0.1.css" , :media => "all" %>
+  <%= stylesheet_link_tag  "application", "bootstrap" , :media => "all" %>
   <%= javascript_include_tag "application" %>  
    <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js", "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"%>    
   <%= csrf_meta_tags %>
@@ -16,7 +16,7 @@
       <% if user_signed_in? %>
       <ul class="nav">
         <li class="active">          
-          <%= link_to 'Products', products_path %>
+          <%= link_to 'Posts', posts_path %>
         </li>
       </ul>      
       <% end %>
@@ -27,7 +27,8 @@
           <%= link_to "Logout", destroy_user_session_path, :method => :delete, :id => "Logout", :class => 'navbar-link'  %>
         <% else %>
           <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-          <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+          <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %> |
+          <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook),:class => 'navbar-link'  %>
         <% end %>
       </p>
     </div>
@@ -50,7 +51,6 @@
     Sample Application
   </div>
 </footer> 
-<%= javascript_include_tag "best_in_place" %>
 </body>
 
 </html>

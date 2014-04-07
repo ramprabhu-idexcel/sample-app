@@ -13,6 +13,10 @@ gem 'activeadmin'
 
 gem 'devise'
 
+gem 'omniauth'
+
+gem 'omniauth-facebook' 
+
 gem 'cancan'
 
 gem 'json'
@@ -63,7 +67,12 @@ gem "launchy"
 
 gem "selenium-webdriver"
 
-gem "best_in_place"
+#solr searching engine
+gem 'sunspot_rails'
+
+gem 'sunspot_solr'
+
+gem 'progress_bar'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -81,8 +90,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-gem 'jquery-datatables-rails', :github => 'rweng/jquery-datatables-rails'
 
 
 

@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base  
   protect_from_forgery  
+  before_filter :authenticate_user!
   include SessionsHelper
-  include ErrorsHelper::RescueError 
 
   # Customize the Devise after_sign_in_path_for() for redirecct to previous page after login
   def after_sign_in_path_for(resource_or_scope)
@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
     when :user, User
       store_location = session[:return_to]
       clear_stored_location
-      (store_location.nil?) ? "/products" : store_location.to_s
+      (store_location.nil?) ? "/posts" : store_location.to_s
     else
       super
     end

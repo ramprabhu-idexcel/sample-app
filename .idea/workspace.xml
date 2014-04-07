@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb00d11b-5f58-477c-851b-2110ba05965f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.Gemfile.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/admin_user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/dashboard.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/roles.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/best_in_place.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/best_in_place.purr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/books.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/comments.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/editablegrid-2.0.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/errors.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/ideas.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.purr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/modules/product.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/posts.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/products.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/roles.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/books.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/comments.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/editablegrid-2.0.1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/errors.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/ideas.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/posts.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/roles.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/errors_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ideas_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/roles_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/books_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/customers_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/errors_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/ideas_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/products_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/roles_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/admin_user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/blog.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/book.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/customer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/hello.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/idea.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/receivable.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/role.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/tag.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/books/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/books/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/books/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/comments/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/comments/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/comments/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/comments/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/_app_edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/_form_upload.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/all_idea.pdf.prawn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/edit.js.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ideas/uploads.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_first_page.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_gap.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_last_page.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_page.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_paginator.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/_form_pro_upload.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/_prod_tab.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/datagrid.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/index.js.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/roles/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/roles/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/roles/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/roles/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/roles/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tags/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130315061438_create_ideas.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130316064618_add_user_id_to_ideas.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130318055909_create_roles.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130318055922_users_have_and_belong_to_many_roles.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130321133916_create_posts.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130321142007_create_comments.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130408130630_add_user_id_to_posts.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130408142204_add_comments_count_to_posts.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130409075050_create_tags.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130506062724_add_status_to_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510071725_create_receivables.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130531103323_create_admin_notes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130531103324_move_admin_notes_to_comments.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130625133118_create_products.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/common_search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/core.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/create.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/delete.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/field_search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/list.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/mark.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/nested.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/show.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/subform.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/actions/update.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_record_permissions.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/common_search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/core.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/create.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/delete.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/field_search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/list.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/mark.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/nested.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/show.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/subform.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/actions/update.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/active_record_permissions.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/attribute_params.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/ancestry.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/ancestry/ancestry_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/bitfields.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/bitfields/bitfields_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/calendar_date_select.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/calendar_date_select/as_cds_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/cancan.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/cancan/cancan_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/carrierwave.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/carrierwave/carrierwave_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/carrierwave/carrierwave_bridge_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/carrierwave/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/carrierwave/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/chosen.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/chosen/helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/country_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/country_helper/country_helper_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/date_picker.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/date_picker/ext.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/date_picker/helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/dragonfly.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/dragonfly/dragonfly_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/dragonfly/dragonfly_bridge_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/dragonfly/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/dragonfly/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column/as_file_column_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column/file_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column/test/functional/file_column_keep_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column/test/mock_model.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/file_column/test/test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/paperclip.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/paperclip/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/paperclip/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/paperclip/paperclip_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/paperclip/paperclip_bridge_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/record_select.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/record_select/helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/semantic_attributes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/semantic_attributes/column.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/shared/date_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/tiny_mce.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/bridges/tiny_mce/helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/base.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/core.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/create.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/delete.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/field_search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/form.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/list.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/mark.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/nested.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/show.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/subform.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/config/update.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/configurable.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/constraints.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/action_columns.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/action_link.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/action_links.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/actions.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/column.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/columns.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/error_message.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/nested_info.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/set.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/data_structures/sorting.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/engine.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/action_controller_rendering.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/action_controller_rescueing.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/action_view_rendering.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/array.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/cache_association.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/left_outer_joins.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/localize.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/name_option_for_datetime.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/paginator_extensions.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/reverse_associations.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/routing_mapper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/to_label.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/unsaved_associated.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/unsaved_record.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/extensions/usa_state.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/finder.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/association_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/controller_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/form_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/human_condition_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/id_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/list_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/pagination_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/search_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/show_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/helpers/view_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/marked_model.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/paginator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/responds_to_parent.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/tableless.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/active_scaffold/version.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/attribute_params.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/ancestry.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/ancestry/ancestry_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/bitfields.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/bitfields/bitfields_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/calendar_date_select.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/calendar_date_select/as_cds_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/cancan.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/cancan/cancan_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/carrierwave.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/carrierwave/carrierwave_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/carrierwave/carrierwave_bridge_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/carrierwave/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/carrierwave/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/chosen.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/chosen/helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/country_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/country_helper/country_helper_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/date_picker.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/date_picker/ext.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/date_picker/helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/dragonfly.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/dragonfly/dragonfly_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/dragonfly/dragonfly_bridge_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/dragonfly/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/dragonfly/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column/as_file_column_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column/file_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column/test/functional/file_column_keep_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column/test/mock_model.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/file_column/test/test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/paperclip.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/paperclip/form_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/paperclip/list_ui.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/paperclip/paperclip_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/paperclip/paperclip_bridge_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/record_select.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/record_select/helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/semantic_attributes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/semantic_attributes/column.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/shared/date_bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/tiny_mce.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bridges/tiny_mce/helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/base.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/core.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/create.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/delete.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/field_search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/form.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/list.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/mark.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/nested.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/search.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/show.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/subform.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/config/update.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/configurable.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/constraints.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/action_columns.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/action_link.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/action_links.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/actions.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/column.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/columns.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/error_message.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/nested_info.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/set.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/data_structures/sorting.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/engine.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/action_controller_rendering.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/action_controller_rescueing.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/action_view_rendering.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/array.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/cache_association.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/left_outer_joins.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/localize.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/name_option_for_datetime.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/paginator_extensions.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/reverse_associations.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/routing_mapper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/to_label.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/unsaved_associated.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/unsaved_record.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/extensions/usa_state.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/finder.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/association_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/controller_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/form_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/human_condition_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/id_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/list_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/pagination_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/search_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/show_column_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/helpers/view_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/marked_model.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/paginator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/responds_to_parent.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tableless.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/version.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comments/_comment.html.erb" afterPath="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comments/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/comment.rb" afterPath="$PROJECT_DIR$/app/models/comment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/post.rb" afterPath="$PROJECT_DIR$/app/models/post.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/post_spec.rb" afterPath="$PROJECT_DIR$/spec/models/post_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/posts_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/posts_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+    </list>
+    <ignored path="railsgirls.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="fb00d11b-5f58-477c-851b-2110ba05965f" time="1396853602547" ignored="false" />
+    <file path="/routes.rb" changelist="fb00d11b-5f58-477c-851b-2110ba05965f" time="1396854138920" ignored="false" />
+    <file path="/user.rb" changelist="fb00d11b-5f58-477c-851b-2110ba05965f" time="1396856227709" ignored="false" />
+    <file path="/omniauth_callbacks_controller.rb" changelist="fb00d11b-5f58-477c-851b-2110ba05965f" time="1396855719276" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="railsgirls" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="omniauth_callbacks_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="45" selection-start="508" selection-end="508" vertical-scroll-proportion="0.17142858">
+              <folding>
+                <element signature="e#257#320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="64" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devise.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="217" column="45" selection-start="10693" selection-end="10708" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="23" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="23" selection-start="385" selection-end="385" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="3" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="59" />
+    <option name="y" value="24" />
+    <option name="width" value="1221" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="railsgirls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="railsgirls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="railsgirls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="railsgirls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="railsgirls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="railsgirls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="railsgirls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RunManager" selected="Rails.Development: railsgirls">
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="railsgirls" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="railsgirls" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Production: railsgirls" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="railsgirls" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Development: railsgirls" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="railsgirls" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: railsgirls" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: railsgirls" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb00d11b-5f58-477c-851b-2110ba05965f" name="Default" comment="" />
+      <created>1396853598421</created>
+      <updated>1396853598421</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="59" y="24" width="1221" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293617" sideWeight="0.6707317" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2561702" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@ruby1.9.3/gems/devise-2.2.3/lib/devise/omniauth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="857" selection-end="857" vertical-scroll-proportion="0.38283062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@ruby1.9.3/gems/devise-2.2.3/lib/devise/controllers/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="239" column="10" selection-start="9304" selection-end="9304" vertical-scroll-proportion="0.33257142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="23" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="217" column="45" selection-start="10693" selection-end="10708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="64" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="385" selection-end="385" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="45" selection-start="508" selection-end="508" vertical-scroll-proportion="0.17142858">
+          <folding>
+            <element signature="e#257#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

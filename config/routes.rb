@@ -1,49 +1,15 @@
 Railsgirls::Application.routes.draw do
 
-  resources :books
-
-
-  resources :products do
-    collection do
-     get 'search'
-     get 'datagrid'
-     get 'sorting'
-     get 'destroy_all_prod'
-    end
+  resources :posts do
+    resources :comments
   end
-
 
   root :to => redirect('/sign_in')
-
-  devise_for :admin_users, ActiveAdmin::Devise.config
-  ActiveAdmin.routes(self)
   
-  devise_for :users, :controlles => {:sessions => "sessions"} do  
+  devise_for :users, :controllers => {:sessions => "sessions",:omniauth_callbacks => "users/omniauth_callbacks"} do
     get 'sign_in' => "sessions#new", :as => :new_user_session
-    post 'sign_in' => "sessions#create", :as => :user_session      
+    post 'sign_in' => "sessions#create", :as => :user_session
   end
-   
-  resources :roles  
-
-  resources :ideas do 
-    collection do
-      get 'uploads'
-      post 'create_upload'
-    end
-  end
-
-  match 'all_idea' => 'ideas#all_idea', :defaults => {:format => 'pdf'}, :as => 'all_idea'
-
-  resources :posts do
-    #resources :comments
-  end
-  
-  #match '*a', :to => 'errors#routing'
-
-  resources :books do
-     post :sort, :on => :collection
-  end
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
