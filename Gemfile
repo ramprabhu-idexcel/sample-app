@@ -9,8 +9,6 @@ gem 'mysql2'
 
 gem 'carrierwave'
 
-gem 'activeadmin'
-
 gem 'devise'
 
 gem 'omniauth'
@@ -26,18 +24,6 @@ gem 'execjs'
 gem 'gruff'
 
 gem 'therubyracer', :platforms => :ruby
-
-gem 'nokogiri'
-
-gem 'prawn'
-
-gem "prawnto"
-
-gem "rails-erd"
-
-gem "ruby-graphviz"
- 
-gem "acts_as_list"
 
 gem 'unicorn'
 
